@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/db1" >
+
+    
+ 
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentBottom="true" >
+
+
+            <com.seuic.AppHorizontalScroView
+                android:id="@+id/apphorizontal"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scrollbars="none" 
+            >
+
+                <LinearLayout
+                    android:id="@+id/scrolinear"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </com.seuic.AppHorizontalScroView>
+
+           
+        </FrameLayout>
+
+       
+        <FrameLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            >
+        <com.seuic.AppHorizontalScroViewRight
+            android:id="@+id/apphorizontal1"
+            android:layout_width="210dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+             android:layout_marginRight="35dp"
+            android:layout_marginBottom="16dp"
+            android:scrollbars="none" 
+            >
+
+            <LinearLayout
+                android:id="@+id/scrolinear1"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.seuic.AppHorizontalScroViewRight>
+	</FrameLayout>
+</RelativeLayout>

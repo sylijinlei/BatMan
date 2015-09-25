@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RC Tumbler</string>
+    <string name="info_app_name">Batmanvehiclen</string>
+    <string name="wificar_menu_item_disconnect">Disconnect</string>
+    <string name="wificar_menu_item_exit">Exit</string>
+    <string name="wificar_menu_item_setting">Setting</string>
+    <string name="soft_version">A37</string>
+    <string name="wificar_activity_toast_stop_recording">Recording process stopped!</string>
+    <string name="sdcard_tilt">Not enough memory.Please free up storage space.</string>
+    <string name="done_button">Done</string>
+    <string name="record_fail_warning">Recording error.Please check your SDcard.</string>
+    <string name="light_th">T</string>
+    <string name="light_hh">H</string>
+    <string name="imageview_text">imageview_content</string>
+    
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+        <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+        <string name="text_verifying_download">Verifying Download</string>
+    <string name="text_validation_complete">XAPK File Validation Complete.  Select OK to start the movie.</string>
+    <string name="text_validation_failed">XAPK File Validation Failed.</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
+</resources>
